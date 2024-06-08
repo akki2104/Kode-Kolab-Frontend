@@ -6,7 +6,7 @@ import { createContext, useCallback, useEffect, useMemo } from "react"
 import { toast } from "react-hot-toast"
 import { io } from "socket.io-client"
 
-const BACKEND_URL = "http://localhost:3000/"
+const BACKEND_URL = import.meta.env.VITE_API_BACKEND_URL
 
 const SocketContext = createContext()
 
@@ -74,6 +74,7 @@ const SocketProvider = ({ children }) => {
     )
 
     useEffect(() => {
+        console.log("backend url: ",BACKEND_URL)
         socket.on("connect_error", handleError)
         socket.on("connect_failed", handleError)
         socket.on(ACTIONS.USERNAME_EXISTS, handleUsernameExist)
