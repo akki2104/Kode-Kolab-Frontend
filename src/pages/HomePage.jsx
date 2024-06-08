@@ -15,6 +15,7 @@ function HomePage() {
                 </div>
                 <div className="flex w-full items-center justify-center sm:w-1/2">
                     <FormComponent />
+                    {/* hey there */}
                 </div>
             </div>
             {/* <Footer /> */}
