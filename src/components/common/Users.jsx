@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import Avatar from "react-avatar"
-import ACTIONS from "@/utils/actions"
-import useAppContext from "@/hooks/useAppContext"
+import ACTIONS from "../../utils/actions"
+import useAppContext from "../../hooks/useAppContext"
 
 function Users() {
     const { users } = useAppContext()

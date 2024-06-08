@@ -2,7 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
 import Toast from "./components/toast/Toast"
 import HomePage from "./pages/HomePage"
 import EditorPage from "./pages/EditorPage"
-import GitHubCorner from "./components/GitHubCorner"
+// import GitHubCorner from "./components/GitHubCorner"
 
 function App() {
     return (
@@ -14,7 +14,7 @@ function App() {
                 </Routes>
             </Router>
             <Toast /> {/* Toast component from react-hot-toast */}
-            <GitHubCorner />
+            {/* <GitHubCorner /> */}
         </>
     )
 }

@@ -1,6 +1,7 @@
-import useChatRoom from "@/hooks/useChatRoom"
-import useTab from "@/hooks/useTabs"
-import TABS from "@/utils/tabs"
+// import useChatRoom from "../../hooks/useChatRoom"
+import useChatRoom from "../../hooks/useChatRoom"
+import useTab from "../../hooks/useTabs"
+import TABS from "../../utils/tabs"
 import PropTypes from "prop-types"
 
 function TabButton({ tabName, icon }) {

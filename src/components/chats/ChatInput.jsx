@@ -1,8 +1,8 @@
-import useAppContext from "@/hooks/useAppContext"
-import useChatRoom from "@/hooks/useChatRoom"
-import useSocket from "@/hooks/useSocket"
-import ACTIONS from "@/utils/actions"
-import { formatDate } from "@/utils/formateDate"
+import useAppContext from "../../hooks/useAppContext"
+import useChatRoom from "../../hooks/useChatRoom"
+import useSocket from "../../hooks/useSocket"
+import ACTIONS from "../../utils/actions"
+import { formatDate } from "../../utils/formateDate"
 import { useRef } from "react"
 import { LuSendHorizonal } from "react-icons/lu"
 

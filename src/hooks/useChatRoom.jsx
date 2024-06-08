@@ -1,4 +1,4 @@
-import ChatContext from "@/context/ChatContext"
+import ChatContext from "../context/ChatContext"
 import { useContext } from "react"
 
 function useChatRoom() {

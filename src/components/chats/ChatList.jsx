@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
-import useChatRoom from "@/hooks/useChatRoom"
-import useAppContext from "@/hooks/useAppContext"
+import useChatRoom from "../../hooks/useChatRoom"
+import useAppContext from "../../hooks/useAppContext"
 
 function ChatList() {
     const {

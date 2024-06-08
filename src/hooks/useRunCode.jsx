@@ -1,4 +1,4 @@
-import RunCodeContext from "@/context/RunCodeContext"
+import RunCodeContext from "../context/RunCodeContext"
 import { useContext } from "react"
 
 export const useRunCode = () => {

@@ -1,7 +1,8 @@
-import useAppContext from "@/hooks/useAppContext"
-import useFileSystem from "@/hooks/useFileSystem"
-import useWindowDimensions from "@/hooks/useWindowDimensions"
-import STATES from "@/utils/states"
+// import useAppContext from "../../hooks/useAppContext"
+import useAppContext from "../../hooks/useAppContext"
+import useFileSystem from "../../hooks/useFileSystem"
+import useWindowDimensions from "../../hooks/useWindowDimensions"
+import STATES from "../../utils/states"
 import DrawingEditor from "../drawing/DrawingEditor"
 import Editor from "./Editor"
 

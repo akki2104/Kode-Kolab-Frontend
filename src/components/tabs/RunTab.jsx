@@ -1,5 +1,5 @@
-import { useRunCode } from "@/hooks/useRunCode"
-import useWindowDimensions from "@/hooks/useWindowDimensions"
+import { useRunCode } from "../../hooks/useRunCode"
+import useWindowDimensions from "../../hooks/useWindowDimensions"
 import toast from "react-hot-toast"
 import { PiCaretDownBold } from "react-icons/pi"
 import { LuCopy } from "react-icons/lu"

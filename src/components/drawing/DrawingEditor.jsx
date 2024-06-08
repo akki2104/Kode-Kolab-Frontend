@@ -1,7 +1,7 @@
-import useAppContext from "@/hooks/useAppContext"
-import useSocket from "@/hooks/useSocket"
-import useWindowDimensions from "@/hooks/useWindowDimensions"
-import ACTIONS from "@/utils/actions"
+import useAppContext from "../../hooks/useAppContext"
+import useSocket from "../../hooks/useSocket"
+import useWindowDimensions from "../../hooks/useWindowDimensions"
+import ACTIONS from "../../utils/actions"
 import { useCallback, useEffect } from "react"
 import { Tldraw, useEditor } from "tldraw"
 

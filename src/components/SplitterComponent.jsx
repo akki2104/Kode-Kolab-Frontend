@@ -1,8 +1,10 @@
 import PropTypes from "prop-types"
 import Split from "react-split"
-import useLocalStorage from "@/hooks/useLocalStorage"
-import useWindowDimensions from "@/hooks/useWindowDimensions"
-import useTabs from "@/hooks/useTabs"
+// import useLocalStorage from "../hooks/useLocalStorage"
+import useLocalStorage from "../hooks/useLocalStorage"
+import useWindowDimensions from "../hooks/useWindowDimensions"
+import useTabs from "../hooks/useTabs"
+import { useLocalStorageState } from "tldraw"
 
 function SplitterComponent({ children }) {
     const { isSidebarOpen } = useTabs()

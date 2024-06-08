@@ -1,7 +1,7 @@
 import { createContext, useState, useEffect } from "react"
 import PropTypes from "prop-types"
-import useSocket from "@/hooks/useSocket"
-import ACTIONS from "@/utils/actions"
+import useSocket from "../hooks/useSocket"
+import ACTIONS from "../utils/actions"
 
 const ChatContext = createContext()
 

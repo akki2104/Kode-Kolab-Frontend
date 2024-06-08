@@ -1,15 +1,15 @@
-import useFileSystem from "@/hooks/useFileSystem"
-import useAppContext from "@/hooks/useAppContext"
-import useTab from "@/hooks/useTabs"
-import useWindowDimensions from "@/hooks/useWindowDimensions"
-import { getIconClassName } from "@/utils/getIconClassName"
+import useFileSystem from "../../hooks/useFileSystem"
+import useAppContext from "../../hooks/useAppContext"
+import useTab from "../../hooks/useTabs"
+import useWindowDimensions from "../../hooks/useWindowDimensions"
+import { getIconClassName } from "../../utils/getIconClassName"
 import { Icon } from "@iconify/react"
 import { useRef, useState } from "react"
 import { MdDelete } from "react-icons/md"
 import { PiPencilSimpleFill } from "react-icons/pi"
 import FileEditor from "./FileEditor"
-import STATES from "@/utils/states"
-import ACTIONS from "@/utils/actions"
+import STATES from "../../utils/states"
+import ACTIONS from "../../utils/actions"
 
 function FileSystem() {
 

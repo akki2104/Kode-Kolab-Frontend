@@ -1,5 +1,6 @@
-import STATE from "@/utils/states"
-import UserStatus from "@/utils/status"
+// import STATE from "@/utils/states"
+import STATE from "../utils/states"
+import UserStatus from "../utils/status"
 import PropTypes from "prop-types"
 import { createContext, useState } from "react"
 const AppContext = createContext()

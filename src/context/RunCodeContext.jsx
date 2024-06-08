@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react"
 import PropTypes from "prop-types"
-import useFileSystem from "@/hooks/useFileSystem"
-import axiosInstance from "@/api/"
+import useFileSystem from "../hooks/useFileSystem"
+import axiosInstance from "../api/"
 import toast from "react-hot-toast"
 import langMap from "lang-map"
 

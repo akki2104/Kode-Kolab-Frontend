@@ -1,4 +1,4 @@
-import SettingContext from "@/context/SettingContext"
+import SettingContext from "../context/SettingContext"
 import { useContext } from "react"
 
 function useSetting() {

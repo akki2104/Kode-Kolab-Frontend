@@ -1,4 +1,4 @@
-import ACTIONS from "@/utils/actions"
+import ACTIONS from "../utils/actions"
 import { useCallback, useEffect } from "react"
 import useAppContext from "./useAppContext"
 import useSocket from "./useSocket"

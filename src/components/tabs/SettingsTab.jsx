@@ -1,8 +1,8 @@
-import Select from "@/components/common/Select"
-import useSetting from "@/hooks/useSetting"
-import useWindowDimensions from "@/hooks/useWindowDimensions"
-import { editorFonts } from "@/resources/Fonts"
-import { editorThemes } from "@/resources/Themes"
+import Select from "../common/Select"
+import useSetting from "../../hooks/useSetting"
+import useWindowDimensions from "../../hooks/useWindowDimensions"
+import { editorFonts } from "../../resources/Fonts"
+import { editorThemes } from "../../resources/Themes"
 import { useEffect } from "react"
 import { langNames } from "@uiw/codemirror-extensions-langs"
 
